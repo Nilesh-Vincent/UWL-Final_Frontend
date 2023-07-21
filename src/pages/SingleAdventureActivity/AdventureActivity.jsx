@@ -27,7 +27,7 @@ const AdventureActivity = () => {
     // Fetch the payment session ID from the backend
     try {
       const response = await axios.get(
-        `http://localhost:5000/api/v1/bookings/checkout-session/${id}`,
+        `${BaseURL}/api/v1/bookings/checkout-session/${id}`,
         {
           headers: {
             Authorization: `Bearer ${bearerToken}`,
