@@ -60,7 +60,7 @@ const FeaturedActivities = () => {
                   </span>
                   <span className={styles.activityDuration}>
                     <p>
-                      <strong>Duration:</strong> {`${activity.duration} Hours`}
+                      <strong>Duration:</strong> {`$${activity.duration}`}
                     </p>
                   </span>
                 </section>
