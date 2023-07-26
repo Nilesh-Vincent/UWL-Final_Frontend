@@ -55,12 +55,12 @@ const FeaturedActivities = () => {
                   </span>
                   <span className={styles.activityPrice}>
                     <p>
-                      <strong>Price:</strong> {`${activity.price} Hours`}
+                      <strong>Price:</strong> {`$${activity.price}`}
                     </p>
                   </span>
                   <span className={styles.activityDuration}>
                     <p>
-                      <strong>Duration:</strong> {`$${activity.duration}`}
+                      <strong>Duration:</strong> {`${activity.duration} Hours`}
                     </p>
                   </span>
                 </section>
